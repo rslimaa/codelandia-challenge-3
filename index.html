@@ -7,53 +7,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-  <header class="top">
-    <h1>Lorem ipsum dolor<br>sit amet</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Maecenas eu massa sit amet<br>augue consectetur ullamcorper non ac massa.</p>
-    <a class="button" href="/">Botão</a>
+  <header>
+    <div class="top">
+      <div class="container-top">
+        <div>
+          <h1>Lorem ipsum dolor<br>sit amet</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Maecenas eu massa sit amet<br>augue consectetur ullamcorper non ac massa.</p>
+          <a class="button" href="/">Botão</a>
+        </div>
+        <div class="img">
+          <img src="./img/icon.png" alt="Imagem">
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section class="contents">
-      <div class="lightcoral"></div>
-      <div class="lightblue"></div>
-      <div class="purple"></div>
-      <div>
-        <h2>Título do card</h2>
-        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
-      </div>
-      <div>
-        <h2>Título do card</h2>
-        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
-      </div>
-      <div>
-        <h2>Título do card</h2>
-        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
-      </div>
-      <div class="green"></div>
-      <div class="yellow"></div>
-      <div class="darkblue"></div>
-      <div>
-        <h2>Título do card</h2>
-        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
-      </div>
-      <div>
-        <h2>Título do card</h2>
-        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
-      </div>
-      <div>
-        <h2>Título do card</h2>
-        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
+    <section>
+      <div class="container">
+        <div class="contents">
+          <div class="color color1"></div>
+          <h2>Título do card</h2>
+          <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="contents">
+          <div class="color color2"></div>
+          <h2>Título do card</h2>
+          <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
+        </div>
+
+        <div class="contents">
+          <div class="color color3"></div>
+          <h2>Título do card</h2>
+          <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="contents">
+          <div class="color color4"></div>
+          <h2>Título do card</h2>
+          <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="contents">
+          <div class="color color5"></div>
+          <h2>Título do card</h2>
+          <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
+        </div>
+        <div class="contents">
+          <div class="color color6"></div>
+          <h2>Título do card</h2>
+          <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Vestibulum in neque et nisl.</p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <h2>Entre em Contato</h2>
+    <h1>Entre em Contato</h1>
+
+    <form class="form" action="./" method="">
+      <input class="form-box" type="text" id="nome" name="nome" placeholder="Nome">
+      <input class="form-box" type="email" id="email" name="email" placeholder="E-mail">
+      <input class="form-box" type="text" id="telefone" name="telefone" placeholder="Telefone">
+      <textarea class="form-box2" name="mensagem" id="mensagem" rows="5" placeholder="Mensagem..."></textarea>
+
+      <button class="button2">Enviar mensagem</button>
+
+    </form>
   </footer>
 
 </body>
